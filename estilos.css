@@ -56,6 +56,7 @@ body{
 }
 
 .buscador-pagina-prin{
+    width: 100%;
     margin-left: 40px;
     height: 65px;
     display: flex;
@@ -323,24 +324,24 @@ input[id^="mostrar-menu-usuario"]:checked + label + .seccion-busqueda-usuario{
 
 /*BARRA LATERAL*/
 
-input[id^="mostrar-menu"]{
+input[id^="mostrar-menu-barra"]{
     display: none;  
 }
 
-input[id^="mostrar-menu"] + label{
+input[id^="mostrar-menu-barra"] + label{
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center; 
 }
 
-input[id^="mostrar-menu"] ~ .seccion-busqueda {
+input[id^="mostrar-menu-barra"] ~ .seccion-busqueda {
     height: 0; 
     overflow: hidden;
     opacity: 0;   
 }
 
-input[id^="mostrar-menu"]:checked + label + .seccion-busqueda{
+input[id^="mostrar-menu-barra"]:checked + label + .seccion-busqueda{
     height: auto;
     opacity: 1;  
 }
