@@ -1,0 +1,70 @@
+.header-prin{
+    height: 60px;
+}
+
+.navbar{
+    height: 60px;
+}
+
+.barra-icono{
+    width: 20%;
+}
+
+.icono-y2 img{
+    width: 70px;
+    height: 70px;
+    margin-left: 5px;
+}
+
+.icono-y2{
+
+}
+
+/* NAVBAR RESPONSIVE  */
+
+.buscador-pagina-prin input{
+    display: none;
+}
+
+.icono-busqueda{
+    display: none;
+}
+
+.busqueda-microfono{
+    display: none;
+}
+
+.desaparecer{
+    display: none;
+}
+
+.texto-lista{
+    margin: 3px;
+}
+
+.seccion-busqueda-usuario{
+    margin-right: 0;
+}
+
+/* BARRA DE BUSQUEDA RAPIDA RESPONSIVE */
+
+.barrasuperior{
+    height: 50px;
+}
+
+.busqueda-por-categoria{
+    height: 50px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.cuadro-busqueda{
+    flex-wrap: wrap;
+}
+
+.nombre-busqueda{
+    margin: 3px;
+}
+
+.nombre-busqueda a{
+    font-size: clamp(.8rem, 1vw, 1.5rem);
+}
