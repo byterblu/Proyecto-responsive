@@ -68,3 +68,29 @@
 .nombre-busqueda a{
     font-size: clamp(.8rem, 1vw, 1.5rem);
 }
+
+/* MAIN VIDEOS RESPONSIVE */
+
+.main-videos{
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding: 10px;
+    
+}
+
+.miniaturas-info{
+    width: 280px
+}
+.miniatura-video{
+    width: 280px;
+
+}
+
+.miniatura-video iframe{
+    width: 280px;
+    height: 200px;
+}
+
+.miniaturas-info:hover{
+    transform: scale(0);
+    background-color: #202020;
+}
