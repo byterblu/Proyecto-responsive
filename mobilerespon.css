@@ -72,25 +72,25 @@
 /* MAIN VIDEOS RESPONSIVE */
 
 .main-videos{
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 768px));
     padding: 10px;
     
 }
 
 .miniaturas-info{
-    width: 280px
+    width: 100%
 }
 .miniatura-video{
-    width: 280px;
+    width: 100%;
 
 }
 
 .miniatura-video iframe{
-    width: 280px;
+    width: 100%;
     height: 200px;
 }
 
 .miniaturas-info:hover{
-    transform: scale(0);
-    background-color: #202020;
+    transform: scale(1);
+    background-color: #20202000;
 }
