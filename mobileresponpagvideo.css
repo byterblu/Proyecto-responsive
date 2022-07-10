@@ -125,7 +125,7 @@
 
 .me-gusta{
     font-size: clamp(.9rem, 1vw, 1.5rem);
-    padding: 5px;
+    padding: 0px 10px 5px 0px;
 }
 
 .me-gusta p{
