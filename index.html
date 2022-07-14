@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" media="(min-width:300px) and (max-width:768px)" href="mobilerespon.css">
+    <link rel="stylesheet" media="(min-width:300px) and (max-width:1920px)" href="mobileresponpagprincipal.css">
 
     <link rel="icon" type="image/png" sizes="100x100" href="/images/LOGO 64X64 PNG.png">
    
@@ -21,8 +21,8 @@
             <div class="icono-y2">
                 <section class="barra-lateral">
 
-                    <input type="checkbox" id="mostrar-menu">
-                    <label for="mostrar-menu">
+                    <input type="checkbox" id="mostrar-menu-barra">
+                    <label for="mostrar-menu-barra">
                         <span class="material-symbols-outlined">
                             menu
                         </span>
@@ -168,7 +168,7 @@
                         notifications
                         </span>
                 </li>
-                <li class="texto-lista">
+                <li class="texto-lista icono-lupa">
                     <span class="material-symbols-outlined">
                         search
                         </span>
@@ -320,7 +320,7 @@
 
    
     <section class="main-videos">
-        <div class="miniaturas-info">
+        <div id="inicio-video" class="miniaturas-info">
             <div class="miniatura-video">
                 <iframe src="https://www.youtube.com/embed/z5Fo445DzYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -543,7 +543,7 @@
                 </div>
             </div>
         </div>
-        <div class="miniaturas-info">
+        <div id="suscripciones-video" class="miniaturas-info">
             <div class="miniatura-video">
                 <iframe src="https://www.youtube.com/embed/iLg3RZlvCf8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -554,13 +554,53 @@
                 <div class="texto-video">
                     <h3>Si te ríes pierdes nivel Borrachos🍺🍻🍸 100%Risas</h3>
                     <P class="nombre-canal">The Andres X</P>
-                    <p class="visuali-tiempo">3 M de vistas ¬ hace 3 años</p>
+                    <p class="visuali-tiempo">3 M de vistas ¬ hace 3 años.</p>
                 </div>
             </div>
         </div>
-       
-  
+    
+
     </section>
+
+
+    <div class="barra-inferior-responsive">
+        <div class="items-barra-inferior">
+
+            <div class="icono-barra-inferior">
+            <a href="#inicio-video"> <span class="material-symbols-outlined">
+                    home
+                </span> </a>  
+                <p>Inicio</p>
+            </div> 
+
+            <div class="icono-barra-inferior">
+                <span class="material-symbols-outlined">
+                    hub
+                    </span>
+                <p>Shorts</p>
+            </div>
+           
+           
+            
+            <div class="icono-barra-inferior">
+              <a href="#suscripciones-video">  <span class="material-symbols-outlined">
+                    subscriptions
+                    </span> </a>
+                <p> Suscripciones </p>
+            </div>
+
+            <div class="icono-barra-inferior">
+                <span class="material-symbols-outlined">
+                    video_library
+                    </span>
+                <p>Biblioteca</p>
+            </div>
+            
+
+
+        </div>
+    </div>
+
 
 </body>
 </html>
